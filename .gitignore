@@ -73,4 +73,22 @@ Plugins/*/Intermediate/*
 # Cache files for the editor to use
 DerivedDataCache/*
 
-UnrealProjects.git/
+# Unreal Engine - Git LFS에 의해 추적되지 않는 에셋 캐시
+*.uasset
+*.umap
+
+# Visual Studio Code 설정 파일 무시 (선택사항)
+.vscode/
+
+# Auto-generated project files
+*.opensdf
+*.sdf
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Git LFS의 관련 설정을 무시하지 않도록 주의
+!.gitattributes
+
+.idea/
