@@ -74,8 +74,8 @@ Plugins/*/Intermediate/*
 DerivedDataCache/*
 
 # Unreal Engine - Git LFS에 의해 추적되지 않는 에셋 캐시
-*.uasset
-*.umap
+# *.uasset
+# *.umap
 
 # Visual Studio Code 설정 파일 무시 (선택사항)
 .vscode/
