@@ -90,12 +90,3 @@ FString UAuraFireBolt::GetNextLevelDescription(int32 Level)
 	// Values
 	Level, ManaCost, Cooldown, FMath::Min(Level,NumProjectiles), ScaleDamage);
 }
-
-void UAuraProjectileSpell::ActivateAbility(const FGameplayAbilitySpecHandle Handle,
-										   const FGameplayAbilityActorInfo* ActorInfo, const FGameplayAbilityActivationInfo ActivationInfo,
-										   const FGameplayEventData* TriggerEventData)
-{
-	Super::ActivateAbility(Handle, ActorInfo, ActivationInfo, TriggerEventData);
-
-	
-}
